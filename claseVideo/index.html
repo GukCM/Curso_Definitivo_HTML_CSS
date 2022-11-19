@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+</head>
+<body>
+    <main>
+        <section>
+            <!-- Controls habilita las opciones para controlar el vídeo y preload hace más rápida la carga -->
+            <video controls preload="auto">
+                <!-- Despues del "#", es el segundo en el que iniciará, después de la coma, es el segundo donde se detendrá -->
+                <!-- Se ponen multiples source para utilizar multiples formatos por si el navegador no conoce alguno, en caso de que
+                conozca todos, se ejecutará el primero -->
+                <source src="Noice_meme.mp4#t=2,4"/>
+                <source src="Noice_meme.m4v#t=2,4"/>
+            </video>
+        </section>
+    </main>
+</body>
+</html>
