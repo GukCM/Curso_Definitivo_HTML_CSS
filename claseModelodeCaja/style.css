@@ -2,6 +2,7 @@
 *{
     padding: 0;
     margin: 0;
+    /* Importante para solucionar exceso de pixeles al momento de implementar bordes, paddings, margenes, etc */
     box-sizing: border-box;
 }
 main{
