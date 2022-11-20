@@ -1,0 +1,15 @@
+/* Selector por etiqueta */
+p {
+    color: red;
+    font-size: 40px;
+}
+/* Selector por clase */
+
+.parrafo{
+    color: blue;
+}
+
+/* Selector por id */
+#parrafojeje{
+    color: purple;
+}
