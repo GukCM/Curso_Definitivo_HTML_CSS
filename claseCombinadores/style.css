@@ -1,0 +1,25 @@
+/* Hermano adyacente Aplica este color a todos los parrafos que estén cerca de una etiqueta
+h2 */
+
+/* h2 + p{
+    color: red;
+} */
+/* Hermano general, modifica todas las etiquetas que tengan
+como hermano general a H2 */
+/* 
+h2 ~ p{
+    color: red;
+} */
+
+/* Combinador hijo, el padre [div] de una etiqueta hijo [parrafo], agrega
+el siguiente estilo */
+
+/* div > p{
+    color: red;
+} */
+
+/* Descendiente, todas las etiquetas p que estén dentro de un div */
+
+div  p{
+    color: blue;
+}
