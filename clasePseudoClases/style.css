@@ -1,0 +1,31 @@
+.main-nav{
+    color: blue;
+    margin-top: 10px;
+    list-style: none;
+    padding: 0px;
+    background-color: #13a4a4;
+}
+.main-nav__item{
+    display: inline-block;
+}
+.main-nav__item a{
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    /* background-color: red; */
+}
+/* Cuando se pone el cursos sobre esta etiqueta con esa clase, tomará ese estilo */
+.main-nav__item a:hover{
+    color: yellow;
+    background-color: black;
+}
+/* Cuando se le de click a la etiqueta "a", con esa clase, tomará ese estilo */
+.main-nav__item a:active{
+    color: blue;
+}
+/* Despues de la etiqueta "a", agrega el contenido */
+.main-nav__item a::after{
+    content: " / ";
+}
